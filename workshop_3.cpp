@@ -11,7 +11,7 @@ void setup() {
   Serial.println("- For position servo: Enter angle (0-180)");
   Serial.println("- For rotation servo: Enter speed (-100 to 100)");
 }
-
+//commit 2
 void posServo() {
   if (Serial.available() > 0) {
     int angle = Serial.parseInt();
