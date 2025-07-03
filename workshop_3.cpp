@@ -60,7 +60,7 @@ void rotServo() {
     myservo2.write(servoVal);
   }
 }
-
+// new commit
 void loop() {
   // For testing rotation servo, comment posServo and uncomment rotServo
   // posServo();
